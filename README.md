@@ -23,6 +23,7 @@ curl -X 'POST' \
 https://app.swaggerhub.com/apis-docs/artalex/ConsoleCI/1.0.0#/apps/createDraft
 
 Category IDs can be obtained using the method https://app.swaggerhub.com/apis-docs/artalex/ConsoleCI/1.0.0#/misc/getCategories
+
 Tag IDs can be obtained using the method https://app.swaggerhub.com/apis-docs/artalex/ConsoleCI/1.0.0#/misc/getTags
 <details>
 <summary>request</summary>
