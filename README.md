@@ -21,6 +21,9 @@ curl -X 'POST' \
 
 # Create the draft
 https://app.swaggerhub.com/apis-docs/artalex/ConsoleCI/1.0.0#/apps/createDraft
+
+Category IDs can be obtained using the method https://app.swaggerhub.com/apis-docs/artalex/ConsoleCI/1.0.0#/misc/getCategories
+Tag IDs can be obtained using the method https://app.swaggerhub.com/apis-docs/artalex/ConsoleCI/1.0.0#/misc/getTags
 <details>
 <summary>request</summary>
   
@@ -264,6 +267,7 @@ curl -X 'POST' \
 
 ## Edit the draft
 https://app.swaggerhub.com/apis-docs/artalex/ConsoleCI/1.0.0#/apps/changeDraft
+
 When editing, you can specify any non-empty set of fields - only those fields that will be presented in the set will be changed.
 However, each field must be specified in its entirety: that is, if a Russian name is added (field ##title##), then both the existing value (key ##en##) and the new one must be specified
 
